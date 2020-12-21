@@ -560,8 +560,6 @@ p21{
    border-radius:250px ;
 }
 
-
-
 .circleee1 {
    height: 175px;
    width: 175px;
