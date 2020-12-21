@@ -14,15 +14,73 @@
       <div class=circle3></div>
 
 
-      <div class=circleee1></div>
-      <div class=circleee2></div>
-      <div class=circleee3></div>
-      <div class=circleee4></div>
-      <div class=circleee5></div>
-      <div class=circleee6></div>
-      <div class=circleee7></div>
-      <div class=circleee8></div>
+      <div class=circleee1>
+          <div class="square1">
+            學院簡介
+            未來展望
+            姊妹學校
+         </div>
+      </div>
+      <div class=circleee2>
+         <div class=square2>
+            歷任院長
+            行政人員
+            專任師資
+         </div>
+      </div>
+
+      <div class=circleee3>
+         <div class=square3>
+            規章辦法
+            教師評鑑
+            會議記錄
+            院評鑑
+         </div>
+      </div>
+
+      <div class=circleee4>
+         <div class=square4>
+            學士班招生
+            音樂系招生
+            藝設系招生
+            跨院碩招生
+            國際交換
+         </div>
+      </div>
+
+      <div class=circleee5>
+         <div class=square5>
+            教師獲獎
+            學生獲獎
+         </div>
+      </div>
+
+      <div class=circleee6>
+         <div class=square6>
+            藝院藝術季
+            國際交流
+         </div>
+      </div>
+
+      <div class=circleee7>
+         <div class=square7>
+            學院影音
+            藝設影音
+            音樂影音
+         </div>
+      </div>
+
+      <div class=circleee8>
+         <div class=square8>
+            學報簡介
+            編輯陣容
+            徵稿須知
+            文件下載
+         </div>
+      </div>
       <div class=circleee9></div>
+
+
       
       <div class=search>  </div>
       <div class=searchri><p9>Search</p9></div>
@@ -42,6 +100,16 @@
       <div class=img4><img src="http://art.nthu.edu.tw/-artimg/web_aet.jpg" height=180px width=180px></div>
       <div class=img5><img src="http://art.nthu.edu.tw/-artimg/web_artspeech.jpg" height=180px width=180px></div>
       <div class=img6><img src="http://art.nthu.edu.tw/-artimg/web_techart.jpg" height=180px width=180px></div>
+
+      <div class=img11><img src="https://i.imgur.com/qVpFJ3X.png" ></div>
+      <div class=img12><img src="https://i.imgur.com/yZvUfmt.png" ></div>
+      <div class=img13><img src="https://i.imgur.com/afsd7WD.png" ></div>
+      <div class=img14><img src="https://i.imgur.com/OPY01a5.png" ></div>
+      <div class=img15><img src="https://i.imgur.com/SBD7ogB.png" ></div>
+      <div class=img16><img src="https://i.imgur.com/2eu5kvU.png" ></div>
+      <div class=img17><img src="https://i.imgur.com/RmU9XNY.png.png" ></div>
+      <div class=img18><img src="https://i.imgur.com/t1775AG.png" ></div>
+     
 
       <p1>清華大學</p1>
       <p2>藝術學院</p2>
@@ -65,8 +133,29 @@
       <el-calendar class="cal" ></el-calendar>
 
       <el-carousel indicator-position="outside">
-      <el-carousel-item v-for="item in 8" :key="item">
-      <h3>{{item = 1}} <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/11/2019-1219_forum-1.jpg" height=1200px width=1000px></h3>
+      <el-carousel-item >
+      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/11/2019-1219_forum-1.jpg" height=1200px width=1000px >
+      </el-carousel-item>
+      <el-carousel-item >
+      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/12/2019-1211t_Jos_Stam.jpg" height=1200px width=1000px>
+      </el-carousel-item>
+      <el-carousel-item >
+      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/12/勾勒-新竹城市美術館1127.png" height=570px width=1000px>
+      </el-carousel-item>
+      <el-carousel-item >
+      <img src="http://art.nthu.edu.tw/wp-content/uploads/2020/01/2020-0108_Spring-01.png" height=700px width=1000px>
+      </el-carousel-item>
+      <el-carousel-item >
+      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/04/2020年%E2%80%A7第14屆%E2%80%A7福爾摩沙珠寶設計教育推廣競賽_金鵲獎_徐靜_獎金24000、聚英寶石課程_作品圖檔-1-1086x1536.jpg" height=1200px width=1000px>
+      </el-carousel-item>
+      <el-carousel-item >
+      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/2020-0611_graduation.jpg" height=1200px width=1000px>
+      </el-carousel-item>
+      <el-carousel-item >
+      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/face-to-face.png" height=500px width=1000px>
+      </el-carousel-item>
+      <el-carousel-item >
+      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/09/ARS2020-1.jpg" height=600px width=1000px>
       </el-carousel-item>
       </el-carousel>
 
@@ -99,6 +188,7 @@ export default {
   margin-top: 60px;
 }
 
+
 .img1 img{
    position: absolute;
    top: 2000px;
@@ -129,6 +219,48 @@ export default {
    top: 2000px;
    left: 1160px;
 }
+
+.img11 img{
+   position: absolute;
+   top: 3200px;
+   left: 110px;
+}
+.img12 img{
+   position: absolute;
+   top: 3200px;
+   left: 730px;
+}
+.img13 img{
+   position: absolute;
+   top: 3830px;
+   left: 110px;
+}
+.img14 img{
+   position: absolute;
+   top: 3830px;
+   left: 730px;
+}
+.img15 img{
+   position: absolute;
+   top: 4460px;
+   left: 110px;
+}
+.img16 img{
+   position: absolute;
+   top: 4460px;
+   left: 730px;
+}
+.img17 img{
+   position: absolute;
+   top: 5090px;
+   left: 110px;
+}
+.img18 img{
+   position: absolute;
+   top: 5090px;
+   left: 730px;
+}
+
 
 .cal{
    height: 80px;
@@ -389,6 +521,11 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circle1:hover{
+   height: 230px;
+   width: 230px;
+   border-radius:250px ;
+}
 
 .circle2 {
    height: 200px;
@@ -413,78 +550,8 @@ p21{
    z-index: 1;
 }
 
-.circleee1:hover{
-   position: absolute;
-   top: 1400px;
-   left: 88px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
-.circleee2:hover{
-   position: absolute;
-   top: 1400px;
-   left: 358px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
-.circleee3:hover{
-   position: absolute;
-   top: 1400px;
-   left: 628px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
-.circleee4:hover{
-   position: absolute;
-   top: 1400px;
-   left: 898px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
-.circleee5:hover{
-   position: absolute;
-   top: 1400px;
-   left: 1168px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
-.circleee6:hover{
-   position: absolute;
-   top: 1700px;
-   left: 223px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
-.circleee7:hover{
-   position: absolute;
-   top: 1700px;
-   left: 493px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
-.circleee8:hover{
-   position: absolute;
-   top: 1700px;
-   left: 763px;
-   height: 200px;
-   width: 175px;
-   border-radius:0px ;
-   background-color: rgb(201, 201, 201);
-}
+
+
 .circleee1 {
    height: 175px;
    width: 175px;
@@ -496,6 +563,25 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+
+.circleee1:hover .square1{
+  display:block;
+}
+.square1{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 100px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:23px;
+}
+
 .circleee2 {
    height: 175px;
    width: 175px;
@@ -507,6 +593,26 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+
+.circleee2:hover .square2{
+  display:block;
+}
+
+.square2{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 100px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:23px;
+}
+
 .circleee3 {
    height: 175px;
    width: 175px;
@@ -518,6 +624,25 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circleee3:hover .square3{
+  display:block;
+}
+
+.square3{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 130px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:23px;
+}
+
 .circleee4 {
    height: 175px;
    width: 175px;
@@ -529,6 +654,25 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circleee4:hover .square4{
+  display:block;
+}
+
+.square4{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 150px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:15px;
+}
+
 .circleee5 {
    height: 175px;
    width: 175px;
@@ -540,6 +684,25 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circleee5:hover .square5{
+  display:block;
+}
+
+.square5{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 80px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:23px;
+}
+
 .circleee6 {
    height: 175px;
    width: 175px;
@@ -551,6 +714,25 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circleee6:hover .square6{
+  display:block;
+}
+
+.square6{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 80px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:15px;
+}
+
 .circleee7 {
    height: 175px;
    width: 175px;
@@ -562,6 +744,25 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circleee7:hover .square7{
+  display:block;
+}
+
+.square7{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 100px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:23px;
+}
+
 .circleee8 {
    height: 175px;
    width: 175px;
@@ -573,6 +774,27 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circleee8:hover .square8{
+  display:block;
+}
+
+.square8{
+   display:none;
+   position: absolute;
+   top: 100px;
+   left: 0px;
+   height: 130px;
+   width: 175px;
+   border-radius:0px ;
+   background-color: rgb(201, 201, 201);
+   text-align: center;
+   color:rgb(97, 97, 97);
+   font-size:20px;
+   letter-spacing:23px;
+}
+
+
+
 .circleee9 {
    height: 175px;
    width: 175px;
