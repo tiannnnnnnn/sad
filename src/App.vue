@@ -538,6 +538,11 @@ p21{
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
 }
+.circle2:hover{
+   height: 230px;
+   width: 230px;
+   border-radius:250px ;
+}
 .circle3 {
    height: 200px;
    width: 200px;
@@ -548,6 +553,11 @@ p21{
    background-color: rgb(255, 247, 232);
    box-shadow:0px 0px 5px rgb(255, 255, 255);
    z-index: 1;
+}
+.circle3:hover{
+   height: 230px;
+   width: 230px;
+   border-radius:250px ;
 }
 
 
