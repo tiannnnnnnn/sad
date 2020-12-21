@@ -803,8 +803,6 @@ p21{
    letter-spacing:23px;
 }
 
-
-
 .circleee9 {
    height: 175px;
    width: 175px;
