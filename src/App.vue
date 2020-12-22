@@ -134,25 +134,25 @@
 
       <el-carousel indicator-position="outside">
       <el-carousel-item >
-      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/11/2019-1219_forum-1.jpg" height=1200px width=1000px >
+      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/11/2019-1219_forum-1.jpg" height=1200px width=1000px>
       </el-carousel-item>
       <el-carousel-item >
       <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/12/2019-1211t_Jos_Stam.jpg" height=1200px width=1000px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/12/勾勒-新竹城市美術館1127.png" height=570px width=1000px>
+      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/12/勾勒-新竹城市美術館1127.png" height=630px width=1100px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="http://art.nthu.edu.tw/wp-content/uploads/2020/01/2020-0108_Spring-01.png" height=700px width=1000px>
+      <img src="http://art.nthu.edu.tw/wp-content/uploads/2020/01/2020-0108_Spring-01.png" height=700px width=1200px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/04/2020年%E2%80%A7第14屆%E2%80%A7福爾摩沙珠寶設計教育推廣競賽_金鵲獎_徐靜_獎金24000、聚英寶石課程_作品圖檔-1-1086x1536.jpg" height=1200px width=1000px>
+      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/04/2020年%E2%80%A7第14屆%E2%80%A7福爾摩沙珠寶設計教育推廣競賽_金鵲獎_徐靜_獎金24000、聚英寶石課程_作品圖檔-1-1086x1536.jpg" height=1400px width=1000px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/2020-0611_graduation.jpg" height=1200px width=1000px>
+      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/2020-0611_graduation.jpg" height=1000px width=1200px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/face-to-face.png" height=500px width=1000px>
+      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/face-to-face.png" height=400px width=1250px>
       </el-carousel-item>
       <el-carousel-item >
       <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/09/ARS2020-1.jpg" height=600px width=1000px>
