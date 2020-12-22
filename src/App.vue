@@ -129,12 +129,25 @@
       <p17>藝院影音</p17>
       <p18>藝術學報</p18>
       <p19>聯絡資訊 </p19>
+
+      <p31>Top news</p31>
+      <p32>合作交流</p32>
+      <p33>國際交流</p33>
+      <p34>學生獲獎</p34>
+      <p35>學院公告</p35>
+      <p36>學院活動</p36>
+      <p37>招生訊息</p37>
+
+      <p41>清華藝術學報</p41>
+      <p42>藝術學院-畢業典禮</p42>
+      <p43>2021年教育發展基金</p43>
+
       
       <el-calendar class="cal" ></el-calendar>
 
       <el-carousel indicator-position="outside">
       <el-carousel-item >
-      <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/11/2019-1219_forum-1.jpg" height=1200px width=1000px>
+      <div class=img21><img src="https://i.imgur.com/28x815r.jpg" height=480px width=1000px></div>
       </el-carousel-item>
       <el-carousel-item >
       <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/12/2019-1211t_Jos_Stam.jpg" height=1200px width=1000px>
@@ -143,19 +156,19 @@
       <img src="http://art.nthu.edu.tw/wp-content/uploads/2019/12/勾勒-新竹城市美術館1127.png" height=630px width=1100px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="http://art.nthu.edu.tw/wp-content/uploads/2020/01/2020-0108_Spring-01.png" height=700px width=1200px>
+      <img src="https://i.imgur.com/hmETOKo.jpg" height=350px width=1050px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/04/2020年%E2%80%A7第14屆%E2%80%A7福爾摩沙珠寶設計教育推廣競賽_金鵲獎_徐靜_獎金24000、聚英寶石課程_作品圖檔-1-1086x1536.jpg" height=1400px width=1000px>
+      <img src="https://i.imgur.com/l6dKhcf.jpg" height=350px width=1000px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/2020-0611_graduation.jpg" height=1000px width=1200px>
+      <img src="https://i.imgur.com/YwXjMgw.jpg" height=350px width=1000px>
       </el-carousel-item>
       <el-carousel-item >
       <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/07/face-to-face.png" height=400px width=1250px>
       </el-carousel-item>
       <el-carousel-item >
-      <img src="https://art.nthu.edu.tw/wp-content/uploads/2020/09/ARS2020-1.jpg" height=600px width=1000px>
+      <img src="https://i.imgur.com/FWNxPgS.jpg" height=350px width=1000px>
       </el-carousel-item>
       </el-carousel>
 
@@ -259,6 +272,9 @@ export default {
    position: absolute;
    top: 5090px;
    left: 730px;
+}
+.img21 img{
+   left: 300px;
 }
 
 
@@ -508,6 +524,86 @@ p21{
    font-size: 20px;
    letter-spacing:15px;
 }
+
+p31{
+    position: absolute;
+   top: 2580px;
+   left: 150px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+
+p32{
+    position: absolute;
+   top: 2640px;
+   left: 170px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+
+p33{
+    position: absolute;
+   top: 2700px;
+   left: 170px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+
+p34{
+    position: absolute;
+   top: 2760px;
+   left: 170px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+
+p35{
+    position: absolute;
+   top: 2820px;
+   left: 170px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+
+p36{
+    position: absolute;
+   top: 2880px;
+   left: 170px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+
+p37{
+    position: absolute;
+   top: 2940px;
+   left: 170px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+
+p41{
+    position: absolute;
+   top: 2580px;
+   left: 1120px;
+   font-size: 20px;
+   letter-spacing:10px;
+}
+p42{
+    position: absolute;
+   top: 2640px;
+   left: 1110px;
+   font-size: 15px;
+   letter-spacing:8px;
+}
+p43{
+    position: absolute;
+   top: 2700px;
+   left: 1115px;
+   font-size: 14px;
+   letter-spacing:6px;
+}
+
+
 
 
 .circle1 {
